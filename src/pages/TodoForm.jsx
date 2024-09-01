@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const TodoForm = ({ addTodo }) => {
-  // Consolidate task and error states into a single state object
+  // a single state object
   const [formState, setFormState] = useState({
     task: {
       name: '',
